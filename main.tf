@@ -12,7 +12,7 @@ terraform {
   required_version = "~> 0.14"
 
   backend "remote" {
-    organization = "blue-acorn-dev"
+    organization = "Snaptech"
 
     workspaces {
       name = "blue-acorn-dev"
